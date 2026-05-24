@@ -34,16 +34,16 @@ playwright install chromium
 ### 2. Запуск API-сервера
 
 ```bash
-cd backend
+cd путь\до\domain_platform\backend
 python app.py
 # Сервер запустится на http://0.0.0.0:5001
 ```
 
 ### 3. Открыть веб-интерфейс
+Откройте новую вкладку в браузере. В адресной строке введите:
 
 ```
-Открыть frontend/index.html в браузере
-(или разместить через nginx/python -m http.server)
+file:///путь/до/domain_platform/frontend/index.html
 ```
 
 ---
