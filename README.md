@@ -36,7 +36,7 @@ playwright install chromium
 ```bash
 cd backend
 python app.py
-# Сервер запустится на http://0.0.0.0:5000
+# Сервер запустится на http://0.0.0.0:5001
 ```
 
 ### 3. Открыть веб-интерфейс
