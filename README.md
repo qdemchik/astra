@@ -30,7 +30,11 @@ domain_platform/
 pip install -r requirements.txt
 playwright install chromium
 ```
+Если команда не работает попробуйте альтернативный вариант
 
+```bash
+python -m playwright install chromium
+```
 ### 2. Запуск API-сервера
 
 ```bash
